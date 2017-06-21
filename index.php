@@ -8,6 +8,15 @@
 
 </head>
 <body>
+	<nav>
+		<?php 
+		wp_nav_menu(array(
+			'menu' 						=> 'primary',
+			'container' 				=> false,
+			'menu_class'				=> 'nav navbar-nav'
+		)); 
+		?>
+	</nav>
 	<header></header>
 
 	<main></main>
