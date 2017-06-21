@@ -3,6 +3,8 @@
 <head>
 	<meta charset="UTF-8">
 	<title>newTheme</title>
+	<?php wp_head(); ?>
+
 </head>
 <body>
 	<header></header>
