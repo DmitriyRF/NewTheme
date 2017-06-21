@@ -2,9 +2,9 @@
 Create new wordpress theme from scratch
 
 ## Steps for new theme
-The new wordress theme have to minimum three files[Codex](https://codex.wordpress.org/Theme_Development)
+The new wordress theme have to minimum three files [see Codex](https://codex.wordpress.org/Theme_Development)
 <ul>
-    <li>Theme stylesheet called style.css, where have this code
+    <li>Theme stylesheet called style.css, where have this code</li>
     ```css
         /*
         Theme Name: New Theme
@@ -19,7 +19,7 @@ The new wordress theme have to minimum three files[Codex](https://codex.wordpres
         Text Domain: newtheme
         */
     ```
-    </li>
+    
     <li>Picture screenshot.png, recommended image size is 1200px wide by 900px tall. </li>
     <li>Main one template file, called index.php </li>
 </ul>
