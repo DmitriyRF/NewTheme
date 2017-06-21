@@ -22,6 +22,6 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
         Tags: black, brown, orange, tan
         Text Domain: newtheme
         */
-    ```
-<p id="wp-css-file">
-</p> 
+```
+
+<p id="wp-css-file"></p> 
