@@ -9,6 +9,7 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
     <li>Main one template file, called index.php </li>
 </ul>
 <p>style.css</p> 
+
 ```css
         /*
         Theme Name: New Theme
@@ -24,5 +25,6 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
         Text Domain: newtheme
         */
 ```
+
 
 
