@@ -44,3 +44,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Registers a script in footer of pages. And jQuery include before</p>
 <h3>Adding Dummy Content</h3>
 <p>Use FakerPress plugin for template of content</p>
+<h3>Adding Menu Support and displaying Menus</h3> 
+<p>Registers theme support for menu. Registers a navigation menu location for a theme.</p>
