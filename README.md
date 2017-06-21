@@ -1,7 +1,8 @@
 # NewTheme
 Create new wordpress theme from scratch
 
-## Steps for new theme
+<h1>Theme Basics</h1>
+<h3>Theme File Headers</h3>
 The new wordress theme have to minimum three files [see Codex](https://codex.wordpress.org/Theme_Development)
 <ul>
     <li>Theme stylesheet called style.css, where have this code</li>
@@ -25,3 +26,7 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
         Text Domain: newtheme
         */
 ```
+
+<p>At first need to install Wordpress on your server or localserver by [OpenServer](https://ospanel.io) or [WampServer](http://www.wampserver.com). After go to Dashboard Permalink and set the structure the "Post name" </p>
+
+<h3>Functions file</h3>
