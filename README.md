@@ -38,3 +38,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 </p>
 <h3>Action Hooks</h3>
 <p>Hooks are provided by WordPress to allow your plugin to 'hook into' the rest of WordPress; that is, to call functions in your plugin at specific times, and thereby set your plugin in motion.</p>
+<h3>Adding Styles through Hooks</h3>
+<p>The way to register a CSS style files</p>
