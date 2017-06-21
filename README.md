@@ -8,7 +8,7 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
     <li>Picture screenshot.png, recommended image size is 1200px wide by 900px tall. </li>
     <li>Main one template file, called index.php </li>
 </ul>
-<p id="wp-css-file">   
+ 
 ```css
         /*
         Theme Name: New Theme
@@ -23,4 +23,5 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
         Text Domain: newtheme
         */
     ```
+<p id="wp-css-file">
 </p> 
