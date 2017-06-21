@@ -42,3 +42,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>The way to register a CSS style files</p>
 <h3>Adding Scripts through Hooks</h3>
 <p>Registers a script in footer of pages. And jQuery include before</p>
+<h3>Adding Dummy Content</h3>
+<p>Use FakerPress plugin for template of content</p>
