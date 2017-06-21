@@ -3,6 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<title>newTheme</title>
+
 	<?php wp_head(); ?>
 
 </head>
@@ -11,6 +12,8 @@
 
 	<main></main>
 
-	<footer></footer>	
+	<footer></footer>
+	
+	<?php wp_footer(); ?>	
 </body>
 </html>
