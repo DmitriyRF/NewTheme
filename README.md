@@ -30,3 +30,9 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
 <p>At first need to install Wordpress on your server or localserver by [OpenServer](https://ospanel.io) or [WampServer](http://www.wampserver.com). After go to Dashboard Permalink and set the structure the "Post name" </p>
 
 <h3>Functions file</h3>
+<p>File will use for <br>
+Enqueue theme stylesheets and scripts. <br> 
+Enable Theme Features such as Sidebars, Navigation Menus, Post Thumbnails, Post Formats, Custom Headers, Custom Backgrounds and others. <br>
+Define functions used in several template files of your theme. <br>
+Set up an options menu, giving site owners options for colors, styles, and other aspects of your theme.
+</p>
