@@ -13,18 +13,15 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
 ```css
         /*
         Theme Name: New Theme
-        Theme URI: http://
         Author: DmitriyRF
-        Author URI: http://
-        Description: The 2017 inctanse theme for WordPress takes us back to the blog, 
-        featuring a full range of post formats, each displayed beautifully in their own unique way.
+        Description: The 2017 inctanse theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way.
         Version: 1.0
         License:   Apache License version 2.0, January 2004
         License URI:  http://www.apache.org/licenses/
-        Tags: black, brown, orange, tan
         Text Domain: newtheme
         */
 ```
+
 <p>At first need to install Wordpress on your server or localserver by [OpenServer](https://ospanel.io) or [WampServer](http://www.wampserver.com). After go to Dashboard Permalink and set the structure the "Post name" </p>
 <hr>
 <h3>Functions file</h3>
@@ -45,3 +42,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Registers theme support for menu. Registers a navigation menu location for a theme.</p>
 <h3>Display menu in theme</h3>
 <p>Displays a navigation menu and set menu arguments as parametrs</p>
+<h3>Creating Headers and Footers</h3>
+<p>Separate header and footer in different files, where some page start in header.php  and some page end in footer.php</p>
