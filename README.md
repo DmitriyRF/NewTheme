@@ -44,3 +44,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Displays a navigation menu and set menu arguments as parametrs</p>
 <h3>Creating Headers and Footers</h3>
 <p>Separate header and footer in different files, where some page start in header.php  and some page end in footer.php</p>
+<h3>Creating Widget Areas</h3>
+<p>We register and show sidebar in site. Important note that id of sidebar must lowercase and do not step in list of forbidden or reserved IDs</p>
