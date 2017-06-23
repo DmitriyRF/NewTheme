@@ -48,3 +48,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>We register and show sidebar in site. Important note that id of sidebar must lowercase and do not step in list of forbidden or reserved IDs</p>
 <h3>Formatting the sidebars</h3>
 <p>Add some classes and ids before and after every widgets and inner title</p>
+<h3>Formatting the Search Form</h3>
+<p>Use searchform.php to format the searchform </p>
