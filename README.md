@@ -50,3 +50,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Add some classes and ids before and after every widgets and inner title</p>
 <h3>Formatting the Search Form</h3>
 <p>Use searchform.php to format the searchform </p>
+<h3>Loop and Template tags inside the Loop</h3>
+<p>The Loop is PHP code used by WordPress to display posts. Also for add thumbnail image i add theme support — ( 'post-thumbnails' ) For template i add post section in index.php, check have_posts() and start loop. In post loop i add thumbnail, time and date, post text for it i use Template Tags </p>
