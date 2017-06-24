@@ -52,3 +52,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Use searchform.php to format the searchform </p>
 <h3>Loop and Template tags inside the Loop</h3>
 <p>The Loop is PHP code used by WordPress to display posts. Also for add thumbnail image i add theme support — ( 'post-thumbnails' ) For template i add post section in index.php, check have_posts() and start loop. In post loop i add thumbnail, time and date, post text for it i use Template Tags </p>
+<h3>Pagination</h3>
+<p>WordPress offers built-in functionality for navigating through posts. Theme developers can use simple links or numbered pagination to indicate the previous page or the next page in a given sequence.</p>

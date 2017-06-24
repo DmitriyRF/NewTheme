@@ -51,6 +51,18 @@
 								}// end if
 
 							?>
+
+							<nav class="text-center">
+								<ul class="pagination">
+									<li>
+										<?php previous_post_link('<i class="fa fa-chevron-left"></i>'); ?>
+									</li>
+									<li>
+										<?php next_post_link('<i class="fa fa-chevron-right"></i>'); ?>
+									</li>
+								</ul>
+							</nav>
+
 						</div>
 					</section>
 				</div>
