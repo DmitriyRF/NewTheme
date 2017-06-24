@@ -55,6 +55,7 @@
 												</li>
 											</ul>
 										</nav>
+										<?php comments_template(); ?>
 										</article>	
 									<?php 
  

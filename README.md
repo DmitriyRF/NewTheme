@@ -56,3 +56,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>WordPress offers built-in functionality for navigating through posts. Theme developers can use simple links or numbered pagination to indicate the previous page or the next page in a given sequence.</p>
 <h3>Single Posts</h3>
 <p>I add new php template for single post content, also go throught theme development advice</p>
+<h3>Comments Template</h3>
+<p>How show, leave and to comment comments in single post page by comments.php template</p>
