@@ -9,7 +9,8 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
     <li>Picture screenshot.png, recommended image size is 1200px wide by 900px tall. </li>
     <li>Main one template file, called index.php </li>
 </ul>
-<p>style.css</p> 
+<p>style.css</p>
+
 ```css
         /*
         Theme Name: New Theme

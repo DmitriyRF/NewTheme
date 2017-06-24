@@ -10,3 +10,9 @@ License URI:  http://www.apache.org/licenses/
 Tags: black, brown, orange, tan
 Text Domain: newtheme
 */
+
+img {
+    vertical-align: middle;
+    width: 100%;
+    height: auto;
+}
