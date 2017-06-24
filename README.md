@@ -54,3 +54,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>The Loop is PHP code used by WordPress to display posts. Also for add thumbnail image i add theme support — ( 'post-thumbnails' ) For template i add post section in index.php, check have_posts() and start loop. In post loop i add thumbnail, time and date, post text for it i use Template Tags </p>
 <h3>Pagination</h3>
 <p>WordPress offers built-in functionality for navigating through posts. Theme developers can use simple links or numbered pagination to indicate the previous page or the next page in a given sequence.</p>
+<h3>Single Posts</h3>
+<p>I add new php template for single post content, also go throught theme development advice</p>
