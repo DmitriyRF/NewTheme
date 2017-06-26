@@ -15,7 +15,7 @@ The new wordress theme have to minimum three files [see Codex](https://codex.wor
         /*
         Theme Name: New Theme
         Author: DmitriyRF
-        Description: The 2017 inctanse theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way.
+        Description: The 2017 inctanse theme for WordPress takes us back to <br> the blog, featuring a full range of post formats, each displayed beautifully in their own unique way.
         Version: 1.0
         License:   Apache License version 2.0, January 2004
         License URI:  http://www.apache.org/licenses/
@@ -56,6 +56,8 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <h3>Pagination</h3>
 <p>WordPress offers built-in functionality for navigating through posts. Theme developers can use simple links or numbered pagination to indicate the previous page or the next page in a given sequence.</p>
 <h3>Single Posts</h3>
-<p>I add new php template for single post content, also go throught theme development advice</p>
+<p>I add new php template for single post content, also go throught theme development advice. single.php — the single post template. Used when a single post is queried.</p>
 <h3>Comments Template</h3>
 <p>How show, leave and to comment comments in single post page by comments.php template</p>
+<h3>Page Template</h3>
+<p>page.php — the page template. Used when an individual Page is queried. Display page title, page content, comment list, comment form. Metadata such as tags, categories, date and author should NOT be displayed. Display an "Edit" link</p>
