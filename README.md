@@ -61,3 +61,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>How show, leave and to comment comments in single post page by comments.php template</p>
 <h3>Page Template</h3>
 <p>page.php — the page template. Used when an individual Page is queried. Display page title, page content, comment list, comment form. Metadata such as tags, categories, date and author should NOT be displayed. Display an "Edit" link</p>
+<h3>404 Template</h3>
+<p>The 404 Not Found template. Used when WordPress cannot find a post or page that matches the query.</p>

@@ -12,13 +12,12 @@
 							while( have_posts() ){
 
 								the_post();
-										// Post Content here		
+									// Post Content here		
 								?>
 								<article class="card">
 									<div class="card-image">
 										<!--img src="" alt="" class="image-responsive"-->
 										<?php the_post_thumbnail(full, array('class' => 'image-responsive', ) ); ?>
-										
 									</div>
 									<div class="card-content">
 										<h3>
@@ -28,21 +27,18 @@
 										<?php the_content(); ?>
 										<?php comments_template(); ?>
 									</div>
-									
 								</article>	
-								<?php 
-								
-									}// end while
-								}// end if
-
-								?>
-							</div>
-						</section>
+						<?php 
+							}// end while
+						}// end if
+						?>
 					</div>
-				</div>
-			</section>
-		</main>
-		<aside class='m-sidebar col-md-4'>
-			<?php get_sidebar(); ?>
-		</aside>
-		<?php get_footer(); ?>
+				</section>
+			</div>
+		</div>
+	</section>
+</main>
+<aside class='m-sidebar col-md-4'>
+	<?php get_sidebar(); ?>
+</aside>
+<?php get_footer(); ?>
