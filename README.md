@@ -65,3 +65,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>The 404 Not Found template. Used when WordPress cannot find a post or page that matches the query. I copy and modify code from page.php</p>
 <h3>Category Template</h3>
 <p>category.php — the category template. Used when a category is queried. I copy and modify code from index.php, I use same code, because i will look same, but it help me in future customization.</p>
+<h3>Search Template</h3>
+<p>search.php - search results template. Used when a search is performed. The search results page shows the search term which generated the results. Also a good practice to include the search form again on the results page.</p>

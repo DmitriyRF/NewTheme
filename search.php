@@ -7,6 +7,17 @@
 				<div class="row">
 					<section class="blog-post">
 						<div class="col-sm-8">
+							<div class="card">
+								<div class="card-content">
+									<h3><?php _e('Search', 'newTheme'); ?></h3>
+									<?php get_search_form(); ?>
+									<hr>
+									<h4>
+										<?php _e('Search results for ', 'newTheme'); ?>
+										<span class="text-info"><?php the_search_query(); ?></span>
+									</h4>
+								</div>
+							</div>
 							<?php
 
 								if( have_posts() ){
@@ -49,9 +60,7 @@
  
 									}// end while
 								}// end if
-
 							?>
-
 							<nav class="text-center">
 								<ul class="pagination">
 									<li>
@@ -62,14 +71,14 @@
 									</li>
 								</ul>
 							</nav>
-						</div>
-					
+						</div><!-- class="col-sm-8" -->
+						<aside class='m-sidebar col-sm-4'>
+							<?php get_sidebar(); ?>
+						</aside><!-- class='m-sidebar col-md-4' -->
 					</section><!-- class="blog-post" -->
 				</div><!-- End row -->
 			</div>
 		</section><!-- id="blog" -->
 	</main>
-	<aside class='m-sidebar col-md-4'>
-		<?php get_sidebar(); ?>
-	</aside>
+
 <?php get_footer(); ?>
