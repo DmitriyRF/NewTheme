@@ -69,3 +69,5 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>search.php - search results template. Used when a search is performed. The search results page shows the search term which generated the results. Also a good practice to include the search form again on the results page.</p>
 <h3>Custom Templates</h3>
 <p>The custom templates uses in page attribute and for each page necessary set Template. In this instance I create full-width-page.php add comment in top of file as "Template Name: Full Width Page". Wordpress automaticly define this template</p>
+<h3>Finishing Up</h3>
+<hr>
