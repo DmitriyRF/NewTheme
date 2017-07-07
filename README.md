@@ -56,10 +56,12 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <h3>Pagination</h3>
 <p>WordPress offers built-in functionality for navigating through posts. Theme developers can use simple links or numbered pagination to indicate the previous page or the next page in a given sequence.</p>
 <h3>Single Posts</h3>
-<p>I add new php template for single post content, also go throught theme development advice. single.php — the single post template. Used when a single post is queried.</p>
+<p>I add new php template for single post content, also go throught theme development advice. single.php — the single post template. Used when a single post is queried. I copy and modify code from index.php</p>
 <h3>Comments Template</h3>
 <p>How show, leave and to comment comments in single post page by comments.php template</p>
 <h3>Page Template</h3>
-<p>page.php — the page template. Used when an individual Page is queried. Display page title, page content, comment list, comment form. Metadata such as tags, categories, date and author should NOT be displayed. Display an "Edit" link</p>
+<p>page.php — the page template. Used when an individual Page is queried. Display page title, page content, comment list, comment form. Metadata such as tags, categories, date and author should NOT be displayed. Display an "Edit" link. I copy and modify code from single.php</p>
 <h3>404 Template</h3>
-<p>The 404 Not Found template. Used when WordPress cannot find a post or page that matches the query.</p>
+<p>The 404 Not Found template. Used when WordPress cannot find a post or page that matches the query. I copy and modify code from page.php</p>
+<h3>Category Template</h3>
+<p>category.php — the category template. Used when a category is queried. I copy and modify code from index.php, I use same code, because i will look same, but it help me in future customization.</p>
