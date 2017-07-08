@@ -77,6 +77,8 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>When user activate theme the options add in wordpress database. I added activate.php file, and included it by function.php</p>
 <h3>Adding a menu page to WordPress Admin</h3>
 <p>Add admin folder and two files below, menus.php and options-page.php. I use function is included page in the menu. Also I determine function for inside content in options-page.php</p>
+<h3>Enqueueing Styles  Scripts in the Admin</h3>
+<p>I get add init.php whether add action for admin enqueue list by inlclude enqueue.php file. Also i set restrictions for enqueue css and js connections.</p>
 
 
  
