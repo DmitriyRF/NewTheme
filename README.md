@@ -71,3 +71,10 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>The custom templates uses in page attribute and for each page necessary set Template. In this instance I create full-width-page.php add comment in top of file as "Template Name: Full Width Page". Wordpress automaticly define this template</p>
 <h3>Finishing Up</h3>
 <hr>
+<h2>Customize theme</h2>
+<p>I use WordPress APIs for theme customizing</p>
+<h3>Creating Default Settings Upon Activation</h3>
+<p>When user activate theme the options add in wordpress database. I added activate.php file, and included it by function.php</p>
+
+
+ 
