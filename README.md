@@ -83,6 +83,8 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Just create first web subpage for admin page which coincides with it as well</p>
 <h3>Setting Up a Form in the Admin</h3>
 <p>Create options form with nonce field. The form markup use standard wordpress classes.</p>
+<h3>Saving Settings</h3>
+<p>In this part we use Admin Post Action Hook.  The admin_post_hook follows the format "admin_post_$youraction", where $youraction is your GET or POST request's 'action' parameter. 'action' is value of name parameter in input field. After saving page redirect back to options page. On saving page we also check virify nonce fields.</p>
 
 
  
