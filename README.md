@@ -81,6 +81,8 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>I get add init.php whether add action for admin enqueue list by inlclude enqueue.php file. Also i set restrictions for enqueue css and js connections.</p>
 <h3>Adding a submenu page to admin page</h3>
 <p>Just create first web subpage for admin page which coincides with it as well</p>
+<h3>Setting Up a Form in the Admin</h3>
+<p>Create options form with nonce field. The form markup use standard wordpress classes.</p>
 
 
  
