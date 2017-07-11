@@ -89,5 +89,7 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>Added the attribute "value" which show saved value. Also it show the message for it.</p>
 <h3>Uploading a Logo with the WordPress Media Uploader</h3>
 <p>It works by WordPress media objects, that was added in enqueue.php file. I implement this through jQuery in options.js file. It takes save(save-options.php) and show(options-page.php).</p>
+<h3>Finalizing the front end and using the options API once more</h3>
+<p>Just add theme options in header and footer files.</p>
 
  
