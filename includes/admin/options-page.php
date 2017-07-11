@@ -83,9 +83,9 @@
 									<td>
 										<div class="input-group">
 											<span class="input-group-btn">
-												<button class="btn btn-secondary" type="button"><?php _e('Upload image', 'newTheme'); ?></button>
+												<button id="nt_input_image_button" class="btn btn-secondary" type="button"><?php _e('Upload image', 'newTheme'); ?></button>
 											</span>
-											<input id="nt_input_image_link" class="input-group-text" size="50" name="nt_input_image_link" type="text">
+											<input id="nt_input_image_link" class="input-group-text" size="50" name="nt_input_image_link" type="text" value="<?php echo $theme_option['logo_img']; ?>">
 										</div>
 									</td>
 								</tr>

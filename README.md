@@ -87,6 +87,7 @@ Set up an options menu, giving site owners options for colors, styles, and other
 <p>In this part we use Admin Post Action Hook.  The admin_post_hook follows the format "admin_post_$youraction", where $youraction is your GET or POST request's 'action' parameter. 'action' is value of name parameter in input field. After saving page redirect back to options page. On saving page we also check virify nonce fields.</p>
 <h3>Displaying the updated setting values</h3>
 <p>Added the attribute "value" which show saved value. Also it show the message for it.</p>
-
+<h3>Uploading a Logo with the WordPress Media Uploader</h3>
+<p>It works by WordPress media objects, that was added in enqueue.php file. I implement this through jQuery in options.js file. It takes save(save-options.php) and show(options-page.php).</p>
 
  

@@ -16,7 +16,7 @@
 		/*wp_register_script( string $handle, string $src, array $deps = array(), string|bool|null $ver = false, bool $in_footer = false )*/
 		wp_register_script( 'nt-bootstrap-4-a', get_template_directory_uri() . '/assets/bootstrap_4_a_6/js/bootstrap.js', array('jquery'), null, true);
 		wp_register_script( 'nt-options', get_template_directory_uri() . '/assets/scripts/options.js', array('jquery'), false, true);
-
+		wp_enqueue_media();
 		wp_enqueue_script('nt-options');
 		wp_enqueue_script('nt-bootstrap-4-a');
 	}

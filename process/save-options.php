@@ -19,7 +19,7 @@
 		$opts['facebook']				=	sanitize_text_field( $_POST['nt_input_facebook'] );
 		$opts['youtube']				=	sanitize_text_field( $_POST['nt_input_youtube'] );
 		$opts['logo_type']				= 	absint( $_POST['nt_input_logo_type'] );
-		// $opts['logo_img'] 				=	( $_POST['nt_input_image_link'] );	
+		$opts['logo_img'] 				=	esc_url_raw( $_POST['nt_input_image_link'] );	
 		$opts['footer_text']			=	$_POST['nt_textarea_footer'];
 
 		update_option( 'nt_opts', $opts );
